@@ -1,0 +1,7 @@
+version: '2'
+services:
+  gcc:
+    image: mailbyms/gcc-cmake-jni:8.5.0-8u275
+    tty: true
+    volumes:
+      - ./src:/src
